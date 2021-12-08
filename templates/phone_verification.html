@@ -1,0 +1,45 @@
+<html>
+  <head>
+        <title>Xplorebot Phone Verification</title>
+
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/authy-form-helpers/2.3/form.authy.min.css" data-turbolinks-track="reload" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/authy-form-helpers/2.3/form.authy.min.js" data-turbolinks-track="reload"></script>
+  </head>
+
+  <body style="background:rgb(27, 5, 5)">
+        <br>
+        <center style="color: blanchedalmond;"><h2>Verify your Phone number with Xplorebot Service</h2><br><br>
+            <hr style="width:50%;">
+        <form action="/phone_verification" accept-charset="UTF-8" method="post">
+        <div>
+          <div  class="form-group">
+            <label for="authy-countries"><b>Country code:</b></label>
+            <select name="country_code" id="authy-countries" data-show-as="number"></select>
+          </div><br>
+          <div class="form-group">
+            <label for="phone_number"><b>Phone number:</b></label>
+            <input type="tel" name="phone_number" id="phone_number" />
+          </div>
+        </div><br>
+            <div>
+            <p>Verification method</p>
+            <div class="form-check form-check-inline">
+            <label class="form-check-label" for="method_sms"><b>SMS:</b> </label>
+            <input class="form-check-input" type="radio" name="method" id="method_sms" value="sms" />
+            </div>
+            <div class="form-check form-check-inline">
+            <label class="form-check-label" for="method_call"><b>Call:</b></label>
+            <input class="form-check-input" type="radio" name="method" id="method_call" value="call" />
+            </div>
+          </div>
+          <button name="button" type="submit"><b>Verify</b></button>
+        </form>
+    </center>
+  </body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>

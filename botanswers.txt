@@ -1,0 +1,17 @@
+
+Visitor: hello Posted on: 2021-12-06 11:44:27.134600
+Xplorebot:Hi there, what can I do for you? Responded on: 2021-12-06 11:44:27.159128
+Visitor: am here for help Posted on: 2021-12-06 11:44:48.733358
+Xplorebot:There is one here check it out 
+ https://live.staticflickr.com/65535/51669174889_65a4bce522_w.jpg 
+ Responded on: 2021-12-06 11:44:48.738831
+Visitor: hello Posted on: 2021-12-07 19:14:01.828856
+Xplorebot:Hey :-) Responded on: 2021-12-07 19:14:02.361670
+Visitor: how are you doing Posted on: 2021-12-07 19:14:10.711199
+Xplorebot:Hi there, how can I help? Responded on: 2021-12-07 19:14:10.714200
+Visitor: how does a gorilla mate Posted on: 2021-12-07 19:14:22.278496
+Xplorebot:Gorillas display uncanny human characteristics. The close-knit family groups are headed by a silverback - a mature male - who selects places for the group to eat and sleep, and has many privileges, including the right to feed first. This privilege pays off for the rest of the family as if the group is threatened, the silverback - weighing up to 120kg (260lbs) - will defend them to death, if necessary.
+
+Generally, though, the gorilla is a gentle species. They are considered to be highly intelligent, have been observed using tools like other great apes, and communicate using a variety of vocal sounds.
+
+The name gorilla comes from the Greek gorillai - meaning hairy women. Responded on: 2021-12-07 19:14:22.280496
