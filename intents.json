@@ -8,7 +8,10 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Hey there",
+        "Tsap",
+        "Good evening",
+        "Good morning"
       ],
       "responses": [
         "Hey :-)",
@@ -26,16 +29,48 @@
         "Bye! Come back again soon."
       ]
     },
-
     {
-      "tag": "definitions",
+      "tag": "thankyou",
+      "patterns": ["Thank you", "Thanks"],
+      "responses": [
+        "You're welcome",
+        "No problem",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "default",
+      "patterns": ["(.*)"],
+      "responses": [
+        "Sorry, I didn't get that",
+        "I'm not sure I understand you fully",
+        "Sorry, can you rephrase that?",
+        "I'm not sure what you mean",
+        "Sorry, I can't understand you"
+      ]
+      
+      
+    },
+    {
+      "tag": "local langugaes",
+      "patterns": ["Agandi","gyebareko"],
+      "responses": [
+        "Ndyaho Nkuyambenta?",
+        "how may I help you?"
+      ]
+    },
+    {
+      "tag": "Tourism",
       "patterns": [
         "What is a tourism?",
+        "What is travel",
+        "Why Tourism and Travel",
         "Define Tourism",
         "How can I define tourism?",
         "What does tourism mean?",
         "What does tourism mean in Uganda?",
-        "What is meant by tourism  in Uganda?"
+        "What is meant by tourism  in Uganda?",
+        "Tell me about tourism in Uganda"
        ],
       "responses": [
         "Tourism, the act and process of spending time away from home in pursuit of recreation, relaxation, and pleasure, while making use of the commercial provision of services \n Tourism has grown tremendously over the last decade with the improvement in security in the northern part of the country, and huge infrastructure investments from private and government. However, many challenges remain, including the need for government leadership to develop the sector, skills upgrading in the industry, investment in the parks and other protected areas, and a much stronger marketing effort for Ugandan tourism. Still, the sector has greatly impacted the growth of household welfare by creating more jobs \n Read more at https://en.wikipedia.org/wiki/Tourism_in_Uganda"
@@ -48,6 +83,32 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
+      "tag": "Tour Package",
+      "patterns": [
+        "What is a tour package?",
+        "Define Tour Package",
+        "How can I define tour package?",
+        "What does tour package mean?",
+        "What does tour package mean in Uganda?",
+        "What is meant by tour package  in Uganda?"
+       ],
+       "responses":[
+         "It means a pre-arrangement, prepaid trip that combines two or more travel components like airfare, airport transfer, accommodation, and other services. \n a package tour/tour package is a total tourism product as it generally includes transport from the origin place to the destination, accommodation at an en route place or at the destination and other recreational or travel services. These components are purchased by an individual, firm or company called the ‘tour operator‘. He combines all the travel components in a package and sells them at all-inclusive prices to the clients. "
+       ]
+    },
+    {
+      "tag": "Tourist Attractions",
+      "patterns" : [
+        "What are the tourist attractions in Uganda?",
+        "What can I see in Uganda?",
+        "What can we see when we visit Uganda?"
+      ],
+      "responses":[
+        "Uganda is one of the most beautiful countries in Africa. With its dense misty forests, snow-peaked mountains, glassy lakes and sprawling savannas, it’s no wonder Winston Churchill dubbed this wonderful country the ‘pearl of Africa’. While mountain gorillas are the allure for many visitors, there’s an astounding variety of attractions for tourists.\n Uganda has various attractions which include Entertainment parks.\n Wildlife attractions.\n Museums and art galleries.\n Unique built attractions.\n Historical or heritage attractions"
+      ]
+
+    },
+    {
       "tag": "Tour Guides",
       "patterns": [
         "Any tour guide around?",
@@ -57,12 +118,11 @@
         "Where can I find a professional tour guide in Uganda?"
       ],
       "responses": [
-        "Chance Tour Guide \n https://www.facebook.com/chance.tourguideuganda \n ",
-        "Peter M \n https://www.toursbylocals.com/TBL/WebObjects/ToursByLocals.woa/1/wo/PNgJt2y3iAfYpORtP2VkE0/2.73.1.3.1.1.1.19.0 \n"
+       "To see these please use the whatsapp channel \nTo interact with Xplorebot through whatsapp, Save this number <b>+14155238886</b> as xplorebot and send <b>join beneath-living</b> to join Xplorebot's sandbox or join directly by sending a direct message.<br>"
       ]
     },
     {
-      "tag": "Animals",
+      "tag": "Gorilla",
       "patterns": [
         "How does a gorilla feed?",
         "What is a gestation period of a gorilla",
@@ -71,6 +131,83 @@
       ],
       "responses": [
         "Gorillas display uncanny human characteristics. The close-knit family groups are headed by a silverback - a mature male - who selects places for the group to eat and sleep, and has many privileges, including the right to feed first. This privilege pays off for the rest of the family as if the group is threatened, the silverback - weighing up to 120kg (260lbs) - will defend them to death, if necessary.\r\n\r\nGenerally, though, the gorilla is a gentle species. They are considered to be highly intelligent, have been observed using tools like other great apes, and communicate using a variety of vocal sounds.\r\n\r\nThe name gorilla comes from the Greek gorillai - meaning hairy women."
+      ]
+    },
+    {
+      "tag": "National Parks",
+      "patterns": [
+        "How many national parks in Uganda?",
+        "Tell me national Parks in Uganda",
+        "I want to know national parks in Uganda",
+        "Uganda National Parks",
+        "National Parks in Uganda",
+        "National Parks in Uganda?"
+      ],
+      "responses": [
+        "Uganda Wildlife Authority, (UWA) manages 10 National Parks; 12 Wildlife reserves; 5 Community Wildlife Management Areas; and 13 Wildlife Sanctuaries. \n The ten National Parks include Queen Elizabeth, Lake Mburo, Murchison Falls, Kidepo Valley, Kibale, Mount Elgon, Rwenzori Mountains, Semuliki, Mgahinga Gorilla, and Bwindi Impenetrable National Parks. These parks display the best in East Africa. Their Rift Valley landscapes and tropical forests make dramatic backdrops to an extensive variety of flora and fauna."
+      ]
+    },
+    {
+      "tag": "Queen Elizabeth National Park",
+      "patterns" : [
+        "Where is Queen Elizabeth National Park?",
+        "Where is Queen Elizabeth National Park in Uganda?",
+        "What can I see in Queen Elizabeth National Park?",
+        "How can I get to Queen Elizabeth National Park?",
+        "How can I get to Queen Elizabeth National Park in Uganda?",
+        "Where can I find Queen Elizabeth National Park in Uganda?",
+        "What animals can I see in Queen Elizabeth National Park?",
+        "which animals can I see in Queen Elizabeth National Park?"
+      ],
+      "responses":[
+        "Queen Elizabeth National Park is the most popular savanna park in Uganda and the best place to see lions including the Tree Climbing lions making it the perfect destination for a Uganda Wildlife Safari. It prides in a great diversity of habitats that include: lakes, savannah grasslands, forests and wetlands that serve as home to the biggest variety of large mammals in the country.\n The park is known for its abundant wildlife, including African elephant, African buffalo, Ugandan kob, hippopotamus, topi, waterbuck, warthog, giant forest hog, Nile crocodile, leopard, Spotted hyena, and lions.\n How to get there: the park is located about 389 km from the capital Kampala and can be accessed wither by road on a 6h 30min drive via Masaka Road or by a charter flight.\n Where to stay: With a wide variety to lodges, campsites, hotels and tented Camps, Queen Elizabeth National Park offers accommodation for everyone like the Ishasha Wilderness Camp Queen Elizabeth National Park irrespective of your budget and these range from luxury, mid-range to budget facilities. checkout our most recommended Accommodations in Queen Elizabeth National Park for a more information on each facility.\n The best times to visit: The Dry season that runs from January to February and from June to September is considered the best time to visit with the peak safari time in Uganda being from June to September, while Migratory species arrive in August to December, and March to May offering the best birding time"
+      ]
+    },
+    {
+      "tag": "lake Mburo National Park", 
+      "patterns": [
+        "Where is Lake Mburo National Park?",
+        "Where is Lake Mburo National Park in Uganda?",
+        "What can I see in Lake Mburo National Park?",
+        "How can I get to Lake Mburo National Park?",
+        "How can I get to Lake Mburo National Park in Uganda?",
+        "Where can I find Lake Mburo National Park in Uganda?",
+        "What animals can I see in Lake Mburo National Park?",
+        "which animals can I see in Lake Mburo National Park?"
+      ],
+      "responses":[
+        "Lake Mburo National Park is a compact gem, located conveniently close to the highway that connects Kampala to the parks of western Uganda. It is the smallest of Uganda’s savannah national parks and underlain by ancient Precambrian metamorphic rocks which date back more than 500 million years. It is home to 350 bird species as well as zebra, impala, eland, buffalo, oribi, Defassa waterbuck, leopard, hippo, hyena, topi and reedbuck. Together with 13 other lakes in the area, Lake Mburo forms part of a 50km-long wetland system linked by a swamp. Five of these lakes lie within the park’s borders. Once covered by open savanna, Lake Mburo National Park now contains much woodland as there are no elephants to tame the vegetation. In the western part of the park, the savanna is interspersed with rocky ridges and forested gorges while patches of papyrus swamp and narrow bands of lush riparian woodland line many lakes."
+      ]
+       },
+
+       {
+        "tag": "Murchison Falls National Park",
+        "patterns": [
+          "Where is Murchison Falls National Park?",
+          "Where is Murchison Falls National Park in Uganda?",
+          "What can I see in Murchison Falls National Park?",
+          "How can I get to Murchison Falls National Park?",
+          "How can I get to Murchison Falls National Park in Uganda?",
+          "Where can I find Murchison Falls National Park in Uganda?",
+          "What animals can I see in Murchison Falls National Park?",
+          "which animals can I see in Murchison Falls National Park?"
+        ],
+        "responses":[
+          "The Murchison Falls gives the park its name and draws visitors from across the globe to this beautiful part of Uganda. But what makes them stay, often drawing them back repeatedly, is the epic landscape, range of habitats and excellent biodiversity. As ever with Uganda, there is much more to discover than initially meets the eye\n.Murchison Falls National Park is best known, though, for the most powerful waterfall in the world. Every second, the equivalent of 200 bathtubs full of water is forced through a gorge less than seven paces wide. The pressure is so great that the ground trembles around it. The water then plummets 43 meters before flowing out toward Lake Albert as a placid river whose banks are dense with hippos, crocodiles, waterbuck and buffaloes."
+        ]
+       },
+    {
+      "tag": "Lions",
+      "patterns": [
+        "How does a Lion feed?",
+        "What is a gestation period of a  lion",
+        "Where can I find a lion in Uganda",
+        "What is a young lion called",
+        "tell me about lions",
+        "tell me about lions in Uganda"
+      ],
+      "responses": [
+        "African lions (Panthera leo) are the largest and most imposing carnivore in Africa. They are the only true social cats and have special cultural significance in most countries on the continent. In Uganda, lions enjoy a reputation as ‘king of the beasts’ and are popular symbols of royalty, strength and bravery.  Lions live in a ‘fission-fusion’ society which is a fairly rare social system similar to chimpanzees. Individuals have different home ranges that overlap so that they regularly meet and come together. Males are thrown out of the group at the age of 3-4 years by the dominant male(s) and will try to take over a pride when they get to 7-10 years old. Males usually hole a pride for 2-3 years only before being ousted by another male or coalition of males.  Females generally stay in the same area as their mothers, occasionally moving to an adjacent pride when subadult, and rear a litter of cubs every two years. The highest mortality of lions is in the cubs with often whole litters being killed by other predators or buffalos.\n In Uganda lions are mainly found in the three largest savannah parks: Murchison Falls National Park (MFNP), Kidepo Valley National Park (KVNP) and Queen Elizabeth National Park (QENP). In QENP, the Ishasha lions are known for their unique behavior of climbing trees and have been branded the Ishasha tree-climbing lions by tourists.  Lions, after mountain gorillas, are the most sought-after species by tourists visiting Uganda \n Read more at https://uganda.wcs.org/Wildlife/Lions.aspx#:~:text=In%20Uganda%20lions%20are%20mainly,Elizabeth%20National%20Park%20(QENP)."
       ]
     },
     {
@@ -84,7 +221,7 @@
         "I need to go for a tour"
       ],
       "responses": [
-        "There is one here check it out \n https://live.staticflickr.com/65535/51669174889_65a4bce522_w.jpg \n"
+        "use the whatsapp channel \nTo interact with Xplorebot through whatsapp, Save this number <b>+14155238886</b> as xplorebot and send <b>join beneath-living</b> to join Xplorebot's sandbox or join directly by sending a direct message.<br>"
         
       ]
     },
@@ -99,7 +236,7 @@
 
       ],
       "responses": [
-        "Safari Land Cruiser Extended \n https://live.staticflickr.com/65535/51667695192_8740d60101_c.jpg \n Located in Kampala \n Rented at UGX 432,000 \n Contact 0700135510"
+        " Use the whatsapp channel\n To interact with Xplorebot through whatsapp, Save this number <b>+14155238886</b> as xplorebot and send <b>join beneath-living</b> to join Xplorebot's sandbox or join directly by sending a direct message.<br>"
 
       ]
     }

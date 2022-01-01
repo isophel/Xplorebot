@@ -53,11 +53,11 @@ def get_response(msg):
                 f.write(bot_name + ":" + botresponse + " " + "Responded on: " + str(responsetime) + "\n")
                 return botresponse
 
-    return "I did not  understand that am still learning..."
+    return "I am Sorry I haven\'t processed that but that am still learning..."
 
 
 if __name__ == "__main__":
-    print("Let's chat! (type 'quit' to exit)")
+    print("Let's talk Tourism with XploreBot! (type 'quit' to exit)")
     while True:
         
         sentence = input("You: ")
